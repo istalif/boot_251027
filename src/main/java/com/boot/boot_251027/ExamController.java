@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ExamController {
     @RequestMapping("/")
     public String home(){
-        log.info("hello boot 111 222 333");
+        log.info("hello boot 111 222");
         return "hello"; 
     }
 }
