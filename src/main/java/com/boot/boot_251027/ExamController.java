@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @Slf4j
-//333
+//3333
 public class ExamController {
     @RequestMapping("/")
     public String home(){
