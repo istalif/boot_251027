@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @Slf4j
-//33333
+//333333
 public class ExamController {
     @RequestMapping("/")
     public String home(){
-        log.info("hello boot 111 222");
+        log.info("hello boot 111 222 333");
         return "hello"; 
     }
 }
